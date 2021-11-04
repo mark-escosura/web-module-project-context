@@ -4,7 +4,7 @@ import data from './data';
 
 // Contexts
 
-import { ProductContext } from './contexts/productContext';
+import { ProductContext } from './contexts/ProductContext';
 
 // Components
 
