@@ -125,36 +125,36 @@ const { products, addItem } = useContext(ProductContext);
 
 **STEP 7 - The final stretch**
 
-- Our cart data is now being provided to us from our `CartContext` time to consume it!
+[x] Our cart data is now being provided to us from our `CartContext` time to consume it!
 
-- First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
+[x] First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
 
-- Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
+[x] Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
 
-- Inside of our component we now need to remove all instances of props.
+[x] Inside of our component we now need to remove all instances of props.
 
-  - Remove the `props` parameter
-  - Remove the `props` portion in our `getCartTotal` function
-  - Remove `props` when we're mapping over our cart
+  [x] Remove the `props` parameter
+  [x] Remove the `props` portion in our `getCartTotal` function
+  [x] Remove `props` when we're mapping over our cart
 
-- Time to do the same thing for our `Navigation` component.
-  - First import the `useContext` hook and our `CartContext`
-  - Next, pass our `CartContext` to the `useContext` hook and assign it to a variable named cart.
-  - Lastly we need to remove all instances of `props`
-    - Remove `props` from our parameters
-    - Remove `props` from our cart length
+[x] Time to do the same thing for our `Navigation` component.
+  [x] First import the `useContext` hook and our `CartContext`
+  [x] Next, pass our `CartContext` to the `useContext` hook and assign it to a variable named cart.
+  [x] Lastly we need to remove all instances of `props`
+    [x] Remove `props` from our parameters
+    [x] Remove `props` from our cart length
 
-We have now successfully converted our application into using `Context API` 🔥
+We have now successfully converted our application into using `Context API` 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 **MVP Requirements**
 
-- Create a `ProductContext` and a `CartContext`
-- Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
-- Consume data using the `useContext` hook from `ProductContext` and `CartContext`
+[x] Create a `ProductContext` and a `CartContext`
+[x] Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
+[x] Consume data using the `useContext` hook from `ProductContext` and `CartContext`
 
 ### Task 3: Stretch Problems
 
-Do not attempt stretch problems until MVP has been reached and a final commit has been made.
+DO NOT attempt stretch problems until MVP has been reached and a final commit has been made.
 
 - Create a `removeItem` function that allows you to remove an item from your cart with a click of a button. This `removeItem` function should be able to be consumed from your `ShoppingCartItem` component.
   Remember each item has an `id` this will help out a lot while creating your removeItem function!
